@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #C0C0C0;
+}
+
+textarea{
+    resize: none;
+    width: 95%;
+    height: 800px;
+    font-size: 15px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.column{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmButton{
+    height: 80px;
+    width: 280px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.output{
+    height: 800px;
+    width:95%;
+    background-color: white;
+    border: 1px solid gray;
+    overflow: auto;
+}
+
+pre{
+    font-size: 15px;
+}
